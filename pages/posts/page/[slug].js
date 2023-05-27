@@ -59,7 +59,7 @@ const BlogPagination = ({
         </div>
       </section>
       {/* CTA */}
-      <Cta />
+   {/*    <Cta /> */}
     </Base>
   );
 };

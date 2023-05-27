@@ -1,9 +1,9 @@
 ---
-title: The Real Product From the Buyers improvements in Overflow basis.
-image: /images/blog/04.jpg
+title: I have a Dream.
+image: /images/author/4.jpg
 author:
   name: Abdullah Al Shifat
-  avatar: /images/author/abdullah.jpg
+  avatar: /images/author/4.jpg
 date: 2022-04-04T05:00:00Z
 draft: false
 ---

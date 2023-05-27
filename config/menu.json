@@ -5,28 +5,14 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "The Foundation",
       "url": "/about"
     },
     {
-      "name": "Blog",
+      "name": "Initiatives",
       "url": "/posts"
     },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Terms & Conditions",
-          "url": "/terms-policy"
-        }
-      ]
-    },
+   
     {
       "name": "Contact",
       "url": "/contact"
@@ -40,10 +26,6 @@
     {
       "name": "Blog",
       "url": "/blog"
-    },
-    {
-      "name": "Terms & Conditions",
-      "url": "/terms-policy"
     }
   ]
 }

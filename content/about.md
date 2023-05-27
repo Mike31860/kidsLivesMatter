@@ -6,36 +6,39 @@ draft: false
 ## about us
 about_us:
   subtitle: WHO WE ARE
-  title: Hello, We’re Andromeda Here For Your Help
-  content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
-  image: /images/about/01.jpg
+  title: Hello, We’re Kids Lives Matter Colombia!
+  content: Kids Lives Matter is a non-profit organization based in Colombia that focuses on promoting peace, democracy, and social inclusion for young people living in conflict-affected areas. </br> Kids Lives Matter aims to empower young people by providing them with educational opportunities, skills training, and leadership development programs. The organization recognizes the agency and voice of young people, placing them at the center of their efforts and encouraging their active participation in decision-making processes.
+  image: /images/KLM/KLM5.png
 
 ## our works
 works:
   subtitle: OUR WORKS
   title: What We Do
   list:
-    - title: Building A New Class
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Design For Anyone
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Creative Flair Design
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Building Products
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
+    - title: Promoting Peace, Democracy, and Social Inclusion
+      content:  Kids Lives Matter takes a holistic approach by addressing various dimensions of children's lives, including education, social inclusion, psychosocial support, and post-conflict healing. This comprehensive approach recognizes that sustainable peace requires addressing the multifaceted needs and challenges faced by children and teenagers in conflict-affected areas.
+    - title: Educational Opportunities and Skills Training
+      content: Kids Lives Matter provides educational opportunities and skills training to empower young people. This includes access to higher education in relevant fields, such as Public Relations, Economics, and Science and Engineering. The initiative aims to equip young people with the necessary knowledge and skills for their future careers and personal development.
+    - title: Social Inclusion and Intercultural Dialogue
+      content: Kids Lives Matter emphasizes social inclusion and intercultural dialogue as key principles for building peace and democracy. Our initiative promotes understanding, cooperation, and mutual respect among diverse groups, including minority groups. By fostering intercultural dialogue, our initiative aims to reduce discrimination, marginalization, and exclusion, creating a more inclusive and democratic society where diversity is respected and valued.
+    - title: Leadership Development Programs
+      content: Kids Lives Matter offers leadership development programs to foster the growth and potential of young people. These programs aim to develop their leadership skills, self-confidence, and ability to make positive change in their communities. Through training and mentorship, young people are encouraged to become active citizens and advocates for peace.
+    - title: Amplifying Youth Voice and Participation
+      content: Kids Lives Matter recognizes the importance of youth voice and participation in building a democratic society. The initiative actively involves young people in decision-making processes, encourages their active citizenship, and promotes their rights, opinions, and contributions. By amplifying youth voice, the initiative empowers young people to have a say in matters that affect them and their communities.
 
 ## our mission
 mission:
   subtitle: OUR MISSION
-  title: Main Vision And Mission Of Our Company
-  content: We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece .
-  image: /images/about/02.jpg
+  title: Kids Lives Matter Colombia - Mission
+  content: Our mission at Kids Lives Matter is to empower young people in conflict-affected areas of Colombia to become active agents of democracy, peace, and positive social change. We strive to provide comprehensive support, educational opportunities, and platforms for youth initiatives, fostering a culture of inclusivity, dialogue, and democratic values. Through our holistic approach, we aim to create a society where young people are equipped with the skills, knowledge, and opportunities to shape a peaceful and democratic future.
+  image: /images/KLM/KLM4.jpg
 
 ## short video
 video:
-  subtitle: A SHORT VIDEO
-  title: You Take Care Of The Payments, We Take Care Of The Rest.
-  description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistcy throughout the.
+  subtitle: OUR VISSION
+  title: Kids Lives Matter Colombia - Vission.
+  description: Our vision is to create a Colombia where every young person has the opportunity to thrive and contribute to a peaceful society. We envision a future where youth are actively engaged in decision-making processes, advocating for their rights, and leading community-based initiatives that promote social inclusion, dialogue, and sustainable peace. We aspire to be a catalyst for positive change, inspiring other organizations and countries to adopt participatory approaches that prioritize the well-being, empowerment, and active citizenship of young people in conflict-affected areas.
+  image: /images/KLM/contact.png
   video_id: dyZcRRWiuuw
   thumbnail: /images/about/video-popup-2.jpg
 
@@ -59,17 +62,29 @@ clients:
 our_member:
   subtitle: OUR MEMBERS
   title: The People Behind
-  content: We were freelance designers and developers, constantly finding </br> ourselves deep in vague feedback. This made every client and team
+  content: We are a team of Social leaders and Peace Ambassadors with a very serious commitment to protect the righst of vulnerable populations in the country.
   list:
-    - name: Valentin Staykov
-      field: Operations
-      image: /images/about/team/01.jpg
-    - name: Bukiakta Bansalo
-      field: Product
-      image: /images/about/team/02.jpg
-    - name: Ortrin Okaster
-      field: Engineering
-      image: /images/about/team/03.jpg
+    - name: Miguel Rosas
+      field: CEO
+      image: /images/about/team/1.png
+    - name: Leidy Lasprilla Ruiz
+      field: Vicepresident
+      image: /images/about/team/2.png
+    - name: Julian Puerto
+      field: Communication officer
+      image: /images/about/team/5.jpeg
+    - name: Miguel Torres
+      field: Secreatary
+      image: /images/about/team/6.jpeg  
+    - name: Alejandra Gonzalez
+      field: Executive officer
+      image: /images/about/team/3.jpeg
+    - name: Melqui Aguirre
+      field: Executive officer
+      image: /images/about/team/4.jpeg
+    - name: Nelson Rosas
+      field: Executive officer
+      image: /images/about/team/7.jpeg       
 
 ## office
 our_office:

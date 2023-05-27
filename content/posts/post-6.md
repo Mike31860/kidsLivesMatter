@@ -1,6 +1,6 @@
 ---
-title: The Real Product From the Buyers improvements in Overflow basis.
-image: /images/blog/06.jpg
+title: Community engagement.
+image: /images/author/6.jpg
 author:
   name: Abdullah Al Shifat
   avatar: /images/author/abdullah.jpg

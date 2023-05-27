@@ -9,7 +9,7 @@ const Post = ({ post, i }) => {
   return (
     <div className="overflow-hidden rounded-2xl shadow-[0_10px_35px_rgba(0,0,0,.05)]">
       {post.frontmatter.image && (
-        <Link href={`/${blog_folder}/${post.slug}`}>
+       
           <ImageFallback
             className="w-full object-cover"
             src={post.frontmatter.image}
@@ -17,21 +17,18 @@ const Post = ({ post, i }) => {
             width={570}
             height={335}
           />
-        </Link>
+    
       )}
       <div className="p-8">
         <h2 className="h4">
-          <Link
-            href={`/${blog_folder}/${post.slug}`}
-            className="block hover:text-primary hover:underline"
-          >
+          
             {post.frontmatter.title}
-          </Link>
+         
         </h2>
         <p className="mt-4">
           {post.content.slice(0, Number(summary_length))}...
         </p>
-        <div className="mt-6 flex items-center">
+       {/*  <div className="mt-6 flex items-center">
           <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
             <ImageFallback
               src={post.frontmatter.author.avatar}
@@ -48,7 +45,7 @@ const Post = ({ post, i }) => {
               {dateFormat(post.frontmatter.date)} - {readingTime(post.content)}
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

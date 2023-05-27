@@ -1,6 +1,6 @@
 ---
-title: The Real Product From the Buyers improvements in Overflow basis.
-image: /images/blog/03.jpg
+title:  Peacebuilding.
+image: /images/author/3.jpg
 author:
   name: Abdullah Al Shifat
   avatar: /images/author/abdullah.jpg

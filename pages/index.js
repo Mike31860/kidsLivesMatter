@@ -12,6 +12,7 @@ import { useEffect, useRef } from "react";
 import { TbQuote } from "react-icons/tb";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { ImageKLM } from "../public/images/KLM/KLM1.JPG";
 
 const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
   const paginationRef = useRef(null);
@@ -101,7 +102,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       <section className="section banner pt-0">
         <div className="container-xl">
           <div className="relative">
-            <div className="bg-theme banner-bg col-12 absolute top-0 left-0">
+            <div className="bg-theme banner-bg col-12 absolute left-0 top-0">
               <Circle
                 className="circle left-[10%] top-12"
                 width={32}
@@ -114,18 +115,18 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 height={85}
               />
               <Circle
-                className="circle left-[22%] bottom-[48%]"
+                className="circle bottom-[48%] left-[22%]"
                 width={20}
                 height={20}
               />
               <Circle
-                className="circle left-[15%] bottom-[37%]"
+                className="circle bottom-[37%] left-[15%]"
                 width={47}
                 height={47}
                 fill={false}
               />
               <Circle
-                className="circle left-[6%] bottom-[13%]"
+                className="circle bottom-[13%] left-[6%]"
                 width={62}
                 height={62}
                 fill={false}
@@ -153,7 +154,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 height={20}
               />
               <Circle
-                className="circle right-[3%] bottom-[20%]"
+                className="circle bottom-[20%] right-[3%]"
                 width={65}
                 height={65}
               />
@@ -161,7 +162,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
                 <div className="row relative justify-center pb-10">
-                  <div className="banner-content col-10 pt-20 pb-10 text-center">
+                  <div className="banner-content col-10 pb-10 pt-20 text-center">
                     {markdownify(
                       banner.title,
                       "h1",
@@ -186,6 +187,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 </div>
               </div>
             </div>
+            <div className="animate text-center">
+              <p>Parnertships</p>
+              {markdownify("Our parnertships", "h2", "section-title mt-4")}
+            </div>
             <div className="row border-y border-border py-5">
               <div className="animate from-right col-12">
                 <Swiper
@@ -202,14 +207,14 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 >
                   {brands.map((brand, index) => (
                     <SwiperSlide
-                      className=" h-20 cursor-pointer py-6 px-6 grayscale  transition hover:grayscale-0 lg:px-10"
+                      className=" h-20 cursor-pointer px-6 py-6 grayscale  transition hover:grayscale-0 lg:px-10"
                       key={"brand-" + index}
                     >
                       <div className="relative h-full">
                         <ImageFallback
                           className="object-contain"
                           src={brand}
-                          sizes="100vw"
+                          sizes="300vw"
                           alt=""
                           fill={true}
                           priority={true}
@@ -257,11 +262,18 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             >
               {features.list.map((item, index) => (
                 <SwiperSlide key={"feature-" + index}>
-                  <div className="feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
-                    <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
-                      <FeatherIcon icon={item.icon} />
-                    </div>
-                    <h3 className="h4 mt-6 mb-5">{item.title}</h3>
+                  <div className="feature-card m-4 rounded-md border border-transparent px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
+                    {/*  <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary"> */}
+
+                    <img
+                      src={item.icon}
+                      alt="Italian Trulli"
+                      width="460"
+                      height="345"
+                    ></img>
+
+                    {/* </div> */}
+                    <h3 className="h4 mb-5 mt-6">{item.title}</h3>
                     <p>{item.content}</p>
                   </div>
                 </SwiperSlide>
@@ -275,7 +287,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* Short Into */}
-      <section className="section pt-0">
+    {/*   <section className="section pt-0">
         <div className="container-xl">
           <div className="relative px-4 py-[70px]">
             <div className="text-center">
@@ -288,7 +300,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 <VideoPopup id={intro.video_id} thumbnail={intro.thumbnail} />
               </div>
             </div>
-            <div className="bg-theme absolute top-0 left-0 w-full">
+            <div className="bg-theme absolute left-0 top-0 w-full">
               <Circle
                 className="left-[10%] top-12"
                 width={32}
@@ -297,18 +309,18 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               />
               <Circle className="left-[3%] top-[30%]" width={85} height={85} />
               <Circle
-                className="left-[22%] bottom-[52%]"
+                className="bottom-[52%] left-[22%]"
                 width={20}
                 height={20}
               />
               <Circle
-                className="left-[15%] bottom-[35%]"
+                className="bottom-[35%] left-[15%]"
                 width={47}
                 height={47}
                 fill={false}
               />
               <Circle
-                className="left-[6%] bottom-[6%]"
+                className="bottom-[6%] left-[6%]"
                 width={62}
                 height={62}
                 fill={false}
@@ -336,17 +348,17 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 height={20}
               />
               <Circle
-                className="right-[5%] bottom-[18%]"
+                className="bottom-[18%] right-[5%]"
                 width={65}
                 height={65}
               />
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Special Features */}
-      <section className="section">
+     {/*  <section className="section">
         <div className="container">
           <div className="row items-center justify-center">
             <div className="animate lg:col-6 lg:order-2">
@@ -389,7 +401,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonial */}
       <section className="section pt-0">
@@ -432,7 +444,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                           className="text-center"
                           key={"testimonial-" + index}
                         >
-                          <div className="py-6 px-8 sm:py-12 md:px-10 lg:px-20 xl:px-12">
+                          <div className="px-8 py-6 sm:py-12 md:px-10 lg:px-20 xl:px-12">
                             <TbQuote className="mx-auto rotate-180 text-5xl text-body sm:text-6xl lg:text-8xl" />
                             {markdownify(
                               item.content,
@@ -478,7 +490,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* Cta */}
-      <Cta />
+     {/*  <Cta /> */}
     </Base>
   );
 };

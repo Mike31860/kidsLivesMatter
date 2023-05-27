@@ -83,7 +83,7 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
         </div>
       </section>
 
-      <Cta />
+  {/*     <Cta /> */}
     </Base>
   );
 };

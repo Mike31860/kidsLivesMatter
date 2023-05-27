@@ -1,6 +1,6 @@
 ---
-title: The Real Product From the Buyers improvements in Overflow basis.
-image: /images/blog/05.jpg
+title: Active citizenship and Positive social change.
+image: /images/author/5.jpg
 author:
   name: Abdullah Al Shifat
   avatar: /images/author/abdullah.jpg
