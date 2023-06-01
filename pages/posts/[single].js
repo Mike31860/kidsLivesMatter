@@ -9,7 +9,7 @@ const { blog_folder } = config.settings;
 const Article = ({ post, authors, mdxContent, slug, recentPosts }) => {
   const { frontmatter, content } = post[0];
 
- /*  return (
+  return (
     <PostSingle
       frontmatter={frontmatter}
       content={content}
@@ -18,7 +18,7 @@ const Article = ({ post, authors, mdxContent, slug, recentPosts }) => {
       slug={slug}
       recentPosts={recentPosts}
     />
-  ); */
+  );
 };
 
 // get post single slug

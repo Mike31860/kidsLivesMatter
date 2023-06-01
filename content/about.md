@@ -77,7 +77,7 @@ our_member:
       field: Secreatary
       image: /images/about/team/6.jpeg  
     - name: Alejandra Gonzalez
-      field: Executive officer
+      field: Treasurer
       image: /images/about/team/3.jpeg
     - name: Melqui Aguirre
       field: Executive officer

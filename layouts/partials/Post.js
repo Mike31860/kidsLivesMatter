@@ -9,26 +9,25 @@ const Post = ({ post, i }) => {
   return (
     <div className="overflow-hidden rounded-2xl shadow-[0_10px_35px_rgba(0,0,0,.05)]">
       {post.frontmatter.image && (
-       
-          <ImageFallback
-            className="w-full object-cover"
-            src={post.frontmatter.image}
-            alt={post.frontmatter.title}
-            width={570}
-            height={335}
-          />
-    
+        <ImageFallback
+          className="w-full object-cover"
+          src={post.frontmatter.image}
+          alt={post.frontmatter.title}
+          width={570}
+          height={335}
+        />
       )}
       <div className="p-8">
-        <h2 className="h4">
-          
-            {post.frontmatter.title}
-         
-        </h2>
+        <h2 className="h4">{post.frontmatter.title}</h2>
         <p className="mt-4">
-          {post.content.slice(0, Number(summary_length))}...
+          <Link
+            href={`/${blog_folder}/${post.slug}`}
+            className="block hover:text-primary hover:underline"
+          >
+            {post.content.slice(0, Number(summary_length))}...
+          </Link>
         </p>
-       {/*  <div className="mt-6 flex items-center">
+        {/* <div className="mt-6 flex items-center">
           <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
             <ImageFallback
               src={post.frontmatter.author.avatar}

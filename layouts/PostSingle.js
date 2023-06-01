@@ -38,7 +38,7 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
               <div className="lg:col-8">
                 {markdownify(title, "h1", "h2 mt-6")}
                 <div className="mt-6 flex items-center">
-                  <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
+                {/*   <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
                     <ImageFallback
                       src={author.avatar}
                       width={50}
@@ -51,7 +51,7 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
                     <p>
                       {dateFormat(date)} - {readingTime(content)}
                     </p>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="content mt-16 mb-16 text-left">
                   <MDXRemote {...mdxContent} components={shortcodes} />
@@ -71,7 +71,7 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
           </article>
 
           <div className="section mt-16">
-            <h2 className="section-title text-center">Recent Articles</h2>
+            <h2 className="section-title text-center">More Initiatives</h2>
             <div className="row justify-center">
               {recentPosts.slice(0, 2).map((post, index) => (
                 <div key={"post-" + index} className="animate mt-16 lg:col-5">

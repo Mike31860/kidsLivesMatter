@@ -12,7 +12,7 @@
       "name": "Initiatives",
       "url": "/posts"
     },
-   
+
     {
       "name": "Contact",
       "url": "/contact"
@@ -24,8 +24,8 @@
       "url": "/about"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "Initiatives",
+      "url": "/post"
     }
   ]
 }
