@@ -12,7 +12,7 @@ import { useEffect, useRef } from "react";
 import { TbQuote } from "react-icons/tb";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { ImageKLM } from "../public/images/KLM/KLM1.JPG";
+
 
 const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
   const paginationRef = useRef(null);
