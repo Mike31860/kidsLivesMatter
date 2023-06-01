@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Kids Lives Matter Colombia </br> Volunteer, Social Leaders, Youth Ambassadors in Action"
+  title: "Kids Lives Matter Colombia </br> Volunteers, Social Leaders, Youth Ambassadors in Action"
   image: /images/KLMteam.jpg
   link:
     label: Volunteer with us!
