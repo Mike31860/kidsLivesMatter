@@ -1,6 +1,6 @@
 ---
 title: Peace and Justice
-image: /images/author/2.jpg
+image: /images/author/2.JPG
 author:
   name: Derick Barker
   avatar: /images/author/1.jpg

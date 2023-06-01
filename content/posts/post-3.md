@@ -1,6 +1,6 @@
 ---
 title:  Peacebuilding.
-image: /images/author/3.jpg
+image: /images/author/3.JPG
 author:
   name: Abdullah Al Shifat
   avatar: /images/author/abdullah.jpg

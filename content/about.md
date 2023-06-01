@@ -31,7 +31,7 @@ mission:
   subtitle: OUR MISSION
   title: Kids Lives Matter Colombia - Mission
   content: Our mission at Kids Lives Matter is to empower young people in conflict-affected areas of Colombia to become active agents of democracy, peace, and positive social change. We strive to provide comprehensive support, educational opportunities, and platforms for youth initiatives, fostering a culture of inclusivity, dialogue, and democratic values. Through our holistic approach, we aim to create a society where young people are equipped with the skills, knowledge, and opportunities to shape a peaceful and democratic future.
-  image: /images/KLM/KLM4.jpg
+  image: /images/KLM/KLM4.JPG
 
 ## short video
 video:
