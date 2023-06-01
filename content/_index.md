@@ -69,35 +69,31 @@ testimonial:
   description: Listen to some of our participants
   list:
     - author: David Andrés
-      avatar: /images/user-img/01.jpg
+      avatar: /images/user-img/image.jpg
       profession: Student
       content: I loved every activity, I learned about Human Rights, How to become a peace ambassador in my community and how to represent my region and mi comunity everywhere.
     - author: Angie Valentina
-      avatar: /images/user-img/02.jpg
+      avatar: /images/user-img/image.jpg
       profession: Student
       content: Kids Lives Matter provided me with a life-changing opportunity to pursue higher education in a field I'm passionate about. I'm grateful for the support and guidance that empowered me to achieve my dreams.
-    - author: Alejandra Cepúlveda
-      avatar: /images/user-img/03.jpg
+    - author: Jorge Iván
+      avatar: /images/user-img/image.jpg
       profession: Student
       content: Through Kids Lives Matter, I not only gained access to education but also developed crucial leadership skills. I now feel confident in my ability to make a positive impact in my community and advocate for peace and social inclusion.
-    - author: Catalina Ramirez
-      avatar: /images/user-img/04.png
+    - author:   Ana Ramirez
+      avatar: /images/user-img/image.jpg
       profession: Student
       content: The initiative fostered a sense of belonging and acceptance among diverse groups. I learned the importance of intercultural dialogue and have become more understanding and respectful of others' perspectives.
-    - author: David Cameron
-      avatar: /images/user-img/05.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/06.jpg
+    - author: Laura Muñoz
+      avatar: /images/user-img/image.jpg
       profession: Student
       content: Kids Lives Matter empowered me to use my voice and actively participate in decision-making processes. I now feel like a valued member of society and believe in the power of youth to drive positive change.
-    - author: David Cameron
-      avatar: /images/user-img/07.jpg
+    - author: Alejandra Rodriguez
+      avatar: /images/user-img/image.jpg
       profession: Student
       content: Thanks to Kids Lives Matter, I improved my English language proficiency, opening doors to a world of opportunities. I feel more prepared for the global stage and can connect with people from different backgrounds."
-    - author: David Cameron
-      avatar: /images/user-img/08.jpg
+    - author: Mariana García
+      avatar: /images/user-img/image.jpg
       profession: Student
       content: The community-based projects I led as part of Kids Lives Matter allowed me to see the impact I can make. I'm proud to have contributed to positive change in my community and inspired others to do the same.
 

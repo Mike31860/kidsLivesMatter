@@ -416,7 +416,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               <div className="row items-center justify-center">
                 <div className="hidden lg:col-3 xl:col-4 lg:block">
                   <ImageFallback
-                    src="/images/testimonials-01.png"
+                    src="/images/background.png"
                     width={455}
                     height={522}
                     alt="testimonials"
@@ -477,7 +477,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 </div>
                 <div className="hidden lg:col-3 xl:col-4 lg:block">
                   <ImageFallback
-                    src="/images/testimonials-02.png"
+                    src="/images/ihavedream.png"
                     width={455}
                     height={522}
                     alt="testimonials"
