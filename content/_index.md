@@ -33,10 +33,10 @@ features:
     - icon: '/images/KLM/KLM1.JPG'
       title: Intercultural Exchange Programs
       content: Kids Lives Matter organizes intercultural exchange programs, bringing together students from diverse backgrounds to foster understanding, respect, and cooperation. Through these programs, students learn about different cultures, traditions, and perspectives, promoting a sense of global citizenship.
-    - icon: '/images/KLM/KLM8.JPG'
+    - icon: '/images/KLM/KLM8.jpg'
       title: Peacebuilding Workshops
       content: The initiative conducts peacebuilding workshops where students learn about conflict resolution, non-violent communication, and mediation techniques. These workshops equip students with the skills to address conflicts peacefully and promote harmony in their communities.
-    - icon: '/images/KLM/KLM7.JPG'
+    - icon: '/images/KLM/KLM7.jpg'
       title: Mentoring Programs
       content: The initiative establishes mentoring programs where students receive guidance and support from mentors who are professionals in their respective fields. Mentors provide advice, share their experiences, and help students navigate their educational and career paths.
 
